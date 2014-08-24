@@ -8,7 +8,7 @@
  * Controller of the angularProjectApp
  */
 angular.module('angularProjectApp')
-  .controller('AboutCtrl', function ($scope) {
+  .controller('MusicCtrl', function ($scope) {
     $scope.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',

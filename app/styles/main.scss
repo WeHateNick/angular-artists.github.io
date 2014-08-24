@@ -101,8 +101,9 @@ body {
   margin-top: 4em;
   margin-bottom: 2em;
   .artist-scroller {
-    border: thin solid #84849C;
-    border-radius: 5px;
+    margin-top: 2em;
+    border-top: thin solid #84849C;
+    border-bottom: thin solid #84849C;
     padding: 1em;
     max-height: 24em;
     overflow: scroll;

@@ -1,0 +1,12 @@
+@mixin picture-frame($size) {
+	width: $size;
+	height: $size;
+	border: thin solid #333;
+	border-radius: 50%;
+	position: relative;
+	overflow: hidden;
+	img {
+	width: auto;
+	height: 100%;
+	}
+}

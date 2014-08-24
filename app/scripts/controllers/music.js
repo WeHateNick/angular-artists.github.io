@@ -2,9 +2,9 @@
 
 /**
  * @ngdoc function
- * @name angularProjectApp.controller:AboutCtrl
+ * @name angularProjectApp.controller:MusicCtrl
  * @description
- * # AboutCtrl
+ * # MusicCtrl
  * Controller of the angularProjectApp
  */
 angular.module('angularProjectApp')

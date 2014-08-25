@@ -8,43 +8,55 @@
 							<img ng-src="{{artist.image}}" />
 						</div>	
 						<p class="title-small">{{artist.name}}</p>
-						<p>{{$scope.message}}</p>
 					</div>
 				</a>
 			</div>
 		</div>
 		<div class="col-sm-6 selected-artist">
 			<div class="picture-selected">
-				<img ng-src="{{artists[0].image}}" />
+				<img ng-src="{{artists[artistIndex].image}}" />
 			</div>
-			<h2>{{artists[1].name}}</h2>
+			<h2>{{artists[artistIndex].name}}</h2>
 		</div>
 	</section>
-
 <div class="row">
-	<div class="btn-group pull-right">
-	  <button type="button" class="btn btn-default">Favorite Songs</button>
-	  <button type="button" class="btn btn-default">Bio</button>
-	  <button type="button" class="btn btn-default">Related Artists</button>
-	</div>
+	<ul class="btn-group pull-right tabs">
+	  <li class="btn btn-default" ng-class="{active:isSet(1)}" ng-click="setTab(1)">Favorite Songs</li>
+	  <li class="btn btn-default" ng-class="{active:isSet(2)}" ng-click="setTab(2)">Bio</li>
+	  <li class="btn btn-default" ng-class="{active:isSet(3)}" ng-click="setTab(3)">Related Artists</li>
+	</ul>
 </div>
 <div class="row">
-<section class="col-md-offset-4 col-md-8 row well">
-	<div class="col-md-6">
-		<h3>Tracks</h3>
-		<ul class="tracks">
-			<li><a href="#">Track Name</a></li>
-			<li><a href="#">Track Name</a></li>
-			<li><a href="#">Track Name</a></li>
-		</ul>
-	</div>
-	<div class="col-md-6">
-		<h3>Albums</h3>
-		<ul class="tracks">
-			<li><a href="#">Album Name</a></li>
-			<li><a href="#">Album Name</a></li>
-			<li><a href="#">Album Name</a></li>
-		</ul>
-	</div>
-</section>
+	<section class="col-md-offset-4 col-md-8 row well artist-well" ng-show="isSet(1);">
+		<div class="col-md-6">
+			<h3>Tracks</h3>
+			<ul class="tracks">
+				<li>{{artists[artistIndex].songs[0]}}</li>
+				<li>{{artists[artistIndex].songs[1]}}</li>
+			</ul>
+		</div>
+		<div class="col-md-6">
+			<h3>Albums</h3>
+			<ul class="tracks">
+				<li>{{artists[artistIndex].albums[0]}}</li>
+				<li>{{artists[artistIndex].albums[1]}}</li>
+			</ul>
+		</div>
+	</section>
+	<section class="col-md-offset-4 col-md-8 row well artist-well" ng-show="isSet(2);">
+		<div class="col-md-12">
+			<h3>Bio</h3>
+			<p>{{artists[artistIndex].bio}}</p>
+		</div>
+	</section>
+	<section class="col-md-offset-4 col-md-8 row well artist-well" ng-show="isSet(3);">
+		<div class="col-md-6">
+			<h3>Related Artists</h3>
+			<ul class="tracks">
+				<li>{{artists[artistIndex].relatedArtists[0]}}</li>
+				<li>{{artists[artistIndex].relatedArtists[1]}}</li>
+				<li>{{artists[artistIndex].relatedArtists[2]}}</li>
+			</ul>
+		</div>
+	</section>
 </div>

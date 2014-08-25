@@ -134,3 +134,16 @@ body {
     color: #333;
   }
 }
+.tabs {
+  margin-bottom: -1px;
+  /*z-index: -10;*/
+  li {
+    border-bottom: none;
+  }
+}
+.tabs:first-child:not(:last-child):not(.dropdown-toggle) {
+border-bottom-left-radius: 0;
+}
+.artist-well {
+  min-height: 30em;
+}

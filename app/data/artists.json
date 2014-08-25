@@ -1,70 +1,70 @@
 [
     { 
         "name": "Animal Collective",
-        "favorite-songs": [
+        "songs": [
             "Fireworks",
             "Peacebone"
         ],
         "image": "../images/AnimalCollective-3.jpg",
-        "favorite-albums": [
+        "albums": [
             "Strawberry Jam",
             "Feels"
         ],
-        "bio": "The strange, shimmering star at the center of the early 2000s psych-pop revival, Animal Collective garnered both critical plaudits and rabid, devoted acolytes by blending Brian Wilson-esque vocal harmonies with spaced-out instrumentation, tribal percussion and odd ribbons of sound. As their name implies, the group is more a loose aggregation of performers rather than a standard rock band. Each of the members assumes a kind of nom de psych under which they record: David Portner is Avey Tare, Noah Lennox is Panda Bear, Josh Dibb is Deacon and Brian Weitz calls himself Geologist. The names add an air of both mystery and personality to an already bizarre and singular group. It's music is defined by a sonic restlessness, and an ability to change sounds and styles — sometimes radically — from album to album. -Rolling Stone",
-        "related-artists": [
+        "bio": "The strange, shimmering star at the center of the early 2000s psych-pop revival, Animal Collective garnered both critical plaudits and rabid, devoted acolytes by blending Brian Wilson-esque vocal harmonies with spaced-out instrumentation, tribal percussion and odd ribbons of sound. As their name implies, the group is more a loose aggregation of performers rather than a standard rock band. Each of the members assumes a kind of nom de psych under which they record: David Portner is Avey Tare, Noah Lennox is Panda Bear, Josh Dibb is Deacon and Brian Weitz calls himself Geologist. The names add an air of both mystery and personality to an already bizarre and singular group. It's music is defined by a sonic restlessness, and an ability to change sounds and styles — sometimes radically — from album to album. - Rolling Stone",
+        "relatedArtists": [
             "Dirty Projectors",
             "Panda Bear",
             "Avey Tare's Slasher Flicks"
         ]
     }, {
         "name": "Foxygen",
-        "favorite-songs": [
+        "songs": [
             "Shuggie",
             "How Can You Really"
         ],
         "image": "../images/foxygen.jpg",
-        "favorite-albums": [
+        "albums": [
             "We Are the 21st Century Ambassadors of Peace and Magic",
             "Take the Kids Off Broadway"
         ],
-        "bio": "Foxygen and Star Power is the Los Angeles songwriting duo of 24-year-olds Sam France and Jonathan Rado. In May 2011, France and Rado nervously handed off a CD-R of this homemade mini-opus Take the Kids Off Broadway (Jagjaguwar, 2012) to producer and visionary Richard Swift after his performance in a Lower East Side club. The duo, who had just mixed and burned the disc that very night, had been devotees of Swift's outsider-pop oeuvre since high school, when they first began recording their own pubescent forays into oddball rock n' roll (At least a dozen records were finished before they graduated high school). -Jagjaguwar",
-        "related-artists": [
+        "bio": "Foxygen and Star Power is the Los Angeles songwriting duo of 24-year-olds Sam France and Jonathan Rado. In May 2011, France and Rado nervously handed off a CD-R of this homemade mini-opus Take the Kids Off Broadway (Jagjaguwar, 2012) to producer and visionary Richard Swift after his performance in a Lower East Side club. The duo, who had just mixed and burned the disc that very night, had been devotees of Swift's outsider-pop oeuvre since high school, when they first began recording their own pubescent forays into oddball rock n' roll (At least a dozen records were finished before they graduated high school). - Jagjaguwar",
+        "relatedArtists": [
             "Unkown Mortal Orchestra",
             "Mac Demarco",
             "Dr. Dog"
         ]
     }, {
         "name": "Chance the Rapper",
-        "favorite-songs": [
+        "songs": [
             "Juice",
             "Coccoa Butter Kisses"
         ],
         "image": "../images/chance-the-rapper.jpg",
-        "favorite-albums": [
+        "albums": [
             "Acid Rap",
             "10 Days"
         ],
-        "bio": "Foxygen and Star Power is the Los Angeles songwriting duo of 24-year-olds Sam France and Jonathan Rado. In May 2011, France and Rado nervously handed off a CD-R of this homemade mini-opus Take the Kids Off Broadway (Jagjaguwar, 2012) to producer and visionary Richard Swift after his performance in a Lower East Side club. The duo, who had just mixed and burned the disc that very night, had been devotees of Swift's outsider-pop oeuvre since high school, when they first began recording their own pubescent forays into oddball rock n' roll (At least a dozen records were finished before they graduated high school). -Jagjaguwar",
-        "related-artists": [
-            "Unkown Mortal Orchestra",
-            "Mac Demarco",
-            "Dr. Dog"
+        "bio": "Chance the Rapper (government name Chancellor Bennett) is the latest Chicago MC to take hip-hop by storm, and his newest mixtape, Acid Rap , has immediately turned the 20-year-old into the genre's out-of-nowhere, emergent voice. His influences are easy to discern: warm, soulful beats and a sense of humor that's straight Kanye West; meditative philosophizing filtered down from Kendrick Lamar; and a refracted, pinballing flow that recalls Eminem's heyday; but the mixtape stuns because of its undeniable singularity. Bennett first laid the groundwork on last year's debut #10Day; recorded while on suspension from Jones College Prep High School for smoking weed off-campus; and has honed his vision into rap's most accomplished full-length since Lamar's good kid, m.A.A.d city.",
+        "relatedArtists": [
+            "Kendrick Lamar",
+            "RZA",
+            "Herbie Hancock"
         ]
     }, {
         "name": "Mac Demarco",
-        "favorite-songs": [
+        "songs": [
             "Freaking Out the Neighboorhood",
             "Baby's Wearing Blue Jeans"
         ],
         "image": "../images/mac-demarco.jpg",
-        "favorite-albums": [
+        "albums": [
             "2",
             "Salad Days"
         ],
-        "bio": "Foxygen and Star Power is the Los Angeles songwriting duo of 24-year-olds Sam France and Jonathan Rado. In May 2011, France and Rado nervously handed off a CD-R of this homemade mini-opus Take the Kids Off Broadway (Jagjaguwar, 2012) to producer and visionary Richard Swift after his performance in a Lower East Side club. The duo, who had just mixed and burned the disc that very night, had been devotees of Swift's outsider-pop oeuvre since high school, when they first began recording their own pubescent forays into oddball rock n' roll (At least a dozen records were finished before they graduated high school). -Jagjaguwar",
-        "related-artists": [
+        "bio": "DeMarco’s a weird cat, cultivating an affinity for occult imagery, nudity and social satire. But his most impressive trait is his undeniable and instinctual ability to compose magical pop jangles, which he refers to as “jizz jazz.” His dusted jams have garnished him accolades that are as ever-increasing as his song-writing abilities. - LastFM",
+        "relatedArtists": [
             "Unkown Mortal Orchestra",
-            "Mac Demarco",
+            "King Krule",
             "Dr. Dog"
         ]
     }

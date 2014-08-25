@@ -1,3 +1,5 @@
+(function() {
+
 'use strict';
 
 /**
@@ -7,11 +9,20 @@
  * # MusicCtrl
  * Controller of the angularProjectApp
  */
-angular.module('angularProjectApp')
-  .controller('MusicCtrl', function ($scope) {
-    $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+var app = angular.module('angularProjectApp');
+  	app.controller('MusicCtrl', function ($http, $scope) {
+  	
+    // var music = this;
+    // music
+    $scope.artists = [];
+    $http.get('../../data/artists.json').success(function(data){
+        $scope.artists = data;
+    });
+    // $scope.message = 'hello';
+    // var message = 'hello';
+    // var setArtist(index) = function() {
+
+    // };
+
   });
+})();

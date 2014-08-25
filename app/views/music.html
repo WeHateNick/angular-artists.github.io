@@ -2,49 +2,26 @@
 	<section class="row artist-group">
 		<div class="col-sm-6">
 			<div class="artist-scroller list-group">
-				<a href="#">
+				<a href ng-click="setArtist($index)" ng-repeat="artist in artists">
 					<div class="well artist">
 						<div class="picture-small">
-							<img src="../images/AnimalCollective-3.jpg" />
+							<img ng-src="{{artist.image}}" />
 						</div>	
-						<p class="title-small">Animal Collective</p>
-					</div>
-				</a>
-				<a href="#">
-					<div class="well artist">
-						<div class="picture-small">
-							<img src="../images/foxygen.jpg" />
-						</div>	
-						<p class="title-small">Foxygen</p>
-					</div>
-				</a>
-				<a href="#">
-					<div class="well artist">
-						<div class="picture-small">
-							<img src="../images/chance-the-rapper.jpg" />
-						</div>	
-						<p class="title-small">Chance The Rapper</p>
-					</div>
-				</a>
-				<a href="#">
-					<div class="well artist">
-						<div class="picture-small">
-							<img src="../images/mac-demarco.jpg" />
-						</div>	
-						<p class="title-small">Mac Demarco</p>
+						<p class="title-small">{{artist.name}}</p>
+						<p>{{$scope.message}}</p>
 					</div>
 				</a>
 			</div>
 		</div>
 		<div class="col-sm-6 selected-artist">
 			<div class="picture-selected">
-				<img src="../images/AnimalCollective-3.jpg" />
+				<img ng-src="{{artists[0].image}}" />
 			</div>
-			<h2>Animal Collective</h2>
+			<h2>{{artists[1].name}}</h2>
 		</div>
 	</section>
 
-<div ng-controller="TabsCtrl as tab" class="row">
+<div class="row">
 	<div class="btn-group pull-right">
 	  <button type="button" class="btn btn-default">Favorite Songs</button>
 	  <button type="button" class="btn btn-default">Bio</button>

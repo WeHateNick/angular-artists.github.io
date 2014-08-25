@@ -25,7 +25,7 @@ angular
       })
       .when('/music', {
         templateUrl: 'views/music.html',
-        controller: 'MusicCtrl'
+        controller: 'MusicCtrl as music'
       })
       .otherwise({
         redirectTo: '/'
